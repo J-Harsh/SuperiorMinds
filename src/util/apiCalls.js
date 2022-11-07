@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const Token = process.env.GITHUB_TOKEN;
+
 export const getImage = async (user) => {
   const query = `
         query($userName:String!) {
@@ -28,7 +29,7 @@ export const getImage = async (user) => {
     },
     data: JSON.stringify(body),
   };
-  const res = await axios.request(config);
+  const res = await axios.request(config);  
   return res.data.data.user.avatarUrl;
 };
 
@@ -134,6 +135,7 @@ export const getRep = async (user) => {
 
   const res = await axios.request(config);
   return res.data.data.user.repositories.totalCount;
+  
 };
 
 export const getUserName = (thePath) => {

@@ -7,7 +7,6 @@ const Table = () => {
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("")
-
   useEffect(() => {
     setLoading(true);
     data.forEach((item) => {
