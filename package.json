@@ -1,0 +1,37 @@
+{
+	"name": "superiorminds",
+	"version": "1.0.0",
+	"description": "Hey, if you are reading this, it was really fun to set up react by myself using webpack and babel, I have never did that and it wasw really awesome. Though setting up tailwind was a bit annoying",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server .",
+		"build": "webpack ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.17.10",
+		"@babel/core": "^7.20.2",
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-react": "^7.18.6",
+		"autoprefixer": "^10.4.13",
+		"babel-loader": "^9.1.0",
+		"html-webpack-plugin": "^5.5.0",
+		"postcss": "^8.4.14",
+		"tailwindcss": "^3.2.2",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.11.1"
+	},
+	"dependencies": {
+		"axios": "^1.1.3",
+		"css-loader": "^6.7.1",
+		"dotenv-webpack": "^8.0.1",
+		"postcss-loader": "^7.0.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-loader-spinner": "^5.3.4",
+		"style-loader": "^3.3.1"
+	}
+}
